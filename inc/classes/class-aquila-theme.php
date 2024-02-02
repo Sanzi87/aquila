@@ -40,5 +40,15 @@ class AQUILA_THEME
             'flex-width'           => true,
             'unlink-homepage-logo' => true,
         ]);
+        add_theme_support('custom-background', [
+            'default-color'          => '#fff',
+            'default-image'          => '',
+            'default-preset'         => 'default', // 'default', 'fill', 'fit', 'repeat', 'custom'
+            'default-position-x'     => 'left',    // 'left', 'center', 'right'
+            'default-position-y'     => 'top',     // 'top', 'center', 'bottom'
+            'default-size'           => 'auto',    // 'auto', 'contain', 'cover'
+            'default-repeat'         => 'no-repeat',  // 'repeat-x', 'repeat-y', 'repeat', 'no-repeat'
+            'default-attachment'     => 'scroll',  // 'scroll', 'fixed'
+        ]);
     }
 }
